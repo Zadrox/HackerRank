@@ -18,7 +18,6 @@ tails = []
 (1..gets.to_i).each { ar_vals << gets.to_i }
 tails << ar_vals[0]
 
-
 (1...ar_vals.size).each do |i|
   k = ar_vals[i]
   if k <= tails[0]
