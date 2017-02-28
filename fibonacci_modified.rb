@@ -13,6 +13,7 @@ def do_fib(i)
   else
     @cache[i] = do_fib(i - 2) + do_fib(i - 1)**2
   end
+
 end
 
 init_one, init_two, i = gets.split(' ').map(&:to_i)
